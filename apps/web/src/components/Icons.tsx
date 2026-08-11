@@ -189,6 +189,18 @@ export const BitbucketIcon: Icon = (props) => {
   );
 };
 
+export const ForgejoIcon: Icon = (props) => (
+  <svg {...props} viewBox="0 0 212 212" fill="none">
+    {/* Official Forgejo mark (branch arcs + commit nodes), simplified to a
+        single orange stroke path. */}
+    <path
+      stroke="#FF6600"
+      strokeWidth="18"
+      d="M64 174V76a50 50 0 0 1 50-50h20M64 174v-30a50 50 0 0 1 50-50h20M166 26a18 18 0 1 1-36 0 18 18 0 1 1 36 0M166 94a18 18 0 1 1-36 0 18 18 0 1 1 36 0M82 186a18 18 0 1 1-36 0 18 18 0 1 1 36 0"
+    />
+  </svg>
+);
+
 export const CursorIcon: Icon = ({ className, ...props }) => (
   <svg
     {...props}
